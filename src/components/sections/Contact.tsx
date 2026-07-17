@@ -1,6 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
-import { site, PLACEHOLDER_GITHUB, PLACEHOLDER_WhatsApp, PLACEHOLDER_WHATSAPP } from "@/data/site";
+import { site, PLACEHOLDER_GITHUB, PLACEHOLDER_WHATSAPP } from "@/data/site";
 
 function ContactLink({
   label,
