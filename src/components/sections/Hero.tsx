@@ -39,15 +39,7 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="mt-16 max-w-md rounded-lg border border-border bg-canvas-raised px-5 py-4 font-mono text-sm text-ink-muted">
-              <p>
-                <span className="text-signal">$</span> whoami
-              </p>
-              <p className="mt-1 text-ink">
-                curious developer — learns by shipping real projects
-                <span className="ml-1 inline-block h-4 w-[2px] translate-y-[3px] animate-blink bg-signal" />
-              </p>
-            </div>
+            
           </div>
 
           <div className="flex justify-start md:justify-end">
