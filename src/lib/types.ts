@@ -53,6 +53,6 @@ export interface SiteConfig {
   location: string;
   email: string;
   github: string;
-  linkedin: string;
+  whatsapp: string;
   statement: string;
 }

@@ -4,7 +4,7 @@ import type { SiteConfig } from "@/lib/types";
 // The Contact section renders a distinct "add link" state for any value
 // that matches these placeholder strings, so a stale link never ships silently.
 export const PLACEHOLDER_GITHUB = "https://github.com/your-github";
-export const PLACEHOLDER_WhatsApp = "https://wa.me/";
+export const PLACEHOLDER_WHATSAPP = "https://wa.me/";
 
 export const site: SiteConfig = {
   name: "Randi Ferdiansyah",
@@ -12,7 +12,7 @@ export const site: SiteConfig = {
   location: "Cibinong, Kabupaten Bogor, Indonesia",
   email: "randi.ferdiansyah05@gmail.com",
   github: "https://github.com/randiferdiansyah05-ops",
-  WhatsApp: "https://wa.me/08988152363",
+  whatsapp: "https://wa.me/628988152363",
   statement:
     "I build web applications with clean, scalable architecture — and I'm working toward Web3 development next.",
 };
