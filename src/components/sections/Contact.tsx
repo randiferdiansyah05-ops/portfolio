@@ -17,7 +17,7 @@ function ContactLink({
     return (
       <div className="flex items-center justify-between rounded-md border border-dashed border-amber/40 bg-amber-soft/20 px-4 py-3">
         <span className="font-mono text-sm text-amber">{label}</span>
-        <span className="font-mono text-xs text-amber"> →</span>
+        <span className="font-mono text-xs text-amber">add your link →</span>
       </div>
     );
   }
@@ -45,9 +45,14 @@ export function Contact() {
     >
       <div className="grid gap-6 md:grid-cols-[1fr_1fr]">
         <div>
-          <Button href={`mailto:${site.email}`} variant="primary">
-            {site.email}
-          </Button>
+          <div className="flex flex-wrap gap-3">
+            <Button href={`mailto:${site.email}`} variant="primary">
+              {site.email}
+            </Button>
+            <Button href="/resume.pdf" variant="secondary" download>
+              Download Resume
+            </Button>
+          </div>
           <p className="mt-4 text-sm text-ink-muted">
             Based in {site.location}. Replies fastest by email.
           </p>
