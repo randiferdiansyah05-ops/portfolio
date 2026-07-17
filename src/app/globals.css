@@ -5,6 +5,9 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    /* Matches the sticky Navbar's h-16 (4rem) so clicking a nav link
+       lands the section exactly below the navbar, not further down. */
+    scroll-padding-top: 4rem;
   }
 
   body {

@@ -1,6 +1,6 @@
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
-import { site, PLACEHOLDER_GITHUB, PLACEHOLDER_LINKEDIN } from "@/data/site";
+import { site, PLACEHOLDER_GITHUB, PLACEHOLDER_WhatsApp } from "@/data/site";
 
 function ContactLink({
   label,
@@ -59,7 +59,7 @@ export function Contact() {
         </div>
         <div className="flex flex-col gap-3">
           <ContactLink label="GitHub" value={site.github} placeholder={PLACEHOLDER_GITHUB} />
-          <ContactLink label="LinkedIn" value={site.linkedin} placeholder={PLACEHOLDER_LINKEDIN} />
+          <ContactLink label="WhatsApp" value={site.WhatsApp} placeholder={PLACEHOLDER_WhatsApp} />
         </div>
       </div>
     </Section>

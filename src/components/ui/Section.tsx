@@ -18,7 +18,7 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} className={cx("scroll-mt-24 py-20 md:py-28", className)}>
+    <section id={id} className={cx("py-16 md:py-24", className)}>
       <Container>
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 font-mono text-xs uppercase tracking-[0.2em] text-signal">
