@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/Button";
 
 export function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden bg-grid-fade pt-20 pb-24 md:pt-28 md:pb-32">
+    <section 
+    id="top" 
+    className="relative flex min-h-[calc(100vh-64px)] items-center overflow-hidden bg-grid-fade">
       <Container>
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border px-3 py-1 font-mono text-xs text-ink-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-signal" />
