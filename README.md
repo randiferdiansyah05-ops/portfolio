@@ -9,27 +9,7 @@ Software Engineer / Full Stack Developer applications.
 npm install
 npm run dev
 ```
-
 Open http://localhost:3000.
-
-## Before you publish — placeholder checklist
-
-Everything in this build reflects real work from your CV and the two live
-sites (jaecooplu.co.id, bozzmobil.com). Two things still need your input:
-
-1. **`src/data/site.ts`** — `github` and `linkedin` are placeholder URLs.
-   Replace them with your real profiles. The Contact section will render a
-   dashed "add your link" state until you do, so a dead link can't ship by
-   accident.
-2. **`src/data/projects.ts`** — the last entry (`web3-roadmap`) is explicitly
-   marked `isPlaceholder: true` and rendered with a visible "PLACEHOLDER"
-   tag. Once you start a real Web3/Solidity project, either replace its
-   content and flip that flag to `false`, or remove the entry entirely —
-   don't leave it claiming finished work.
-
-Everything else — the sensor project, the BozzMobil operations work, and the
-JAECOO Next.js build — is real and doesn't need editing, though you're
-welcome to refine the copy in your own voice.
 
 ## Project structure
 
